@@ -4,7 +4,7 @@ import base64
 
 app = Flask(__name__)
 
-DEEPSEEK_API_KEY = "sk-1234567890"
+DEEPSEEK_API_KEY = "sk-c43bc4b9d8994496aedda4dd2fc92217"
 DEEPSEEK_URL = "https://api.deepseek.com/face/verify"  # Example endpoint (check actual docs)
 
 @app.route('/')
